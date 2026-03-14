@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(135deg, #3758d0, #9f7ac4);
+  min-height: 100vh;
+}
+
+/* container */
+
+.app-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+/* header */
+
+.app-header {
+  text-align: center;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.app-header h1 {
+  font-size: 42px;
+  margin-bottom: 8px;
+}
+
+/* cards */
+
+.card {
+  background: white;
+  border-radius: 14px;
+  padding: 28px;
+  margin-bottom: 25px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+  transition: all 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.35);
+}
+
+/* upload */
+
+.upload-section {
+  text-align: center;
+}
+
+.file-input {
+  padding: 10px;
+}
+
+/* resume list */
+
+.resume-list {
+  margin-top: 20px;
+}
+
+.resume-item {
+  background: #f8fafc;
+  padding: 14px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #e2e8f0;
+  transition: 0.2s;
+}
+
+.resume-item:hover {
+  background: #eef2ff;
+}
+
+/* buttons */
+
+.btn {
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.btn.primary {
+  background: #06b6d4;
+  color: white;
+}
+
+.btn.primary:hover {
+  background: #0891b2;
+}
+
+.btn.danger {
+  background: #ef4444;
+  color: white;
+}
+
+.btn.small {
+  padding: 6px 12px;
+}
+
+/* job section */
+
+.job-textarea {
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+
+.threshold-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.threshold-input {
+  width: 70px;
+  padding: 6px;
+}
+
+/* results */
+
+.stats {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.stats strong {
+  font-size: 26px;
+  display: block;
+}
+
+/* result cards */
+
+.result-card {
+  background: #f8fafc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-left: 5px solid #06b6d4;
+  border: 1px solid #e2e8f0;
+}
+
+/* header */
+
+.result-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+/* score */
+
+.score-badge {
+  background: #22c55e;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+/* justification */
+
+.justification {
+  margin-top: 15px;
+  background: white;
+  padding: 14px;
+  border-radius: 6px;
+  border: 1px solid #eee;
+}
