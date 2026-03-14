@@ -10,3 +10,5 @@ requirements, reducing manual recruiter screening effort by 85–90%.
 PDF resumes into structured candidate profiles.
 
 – Exposed RESTful APIs allowing recruiters to upload, manage, and evaluate 100+ resumes per job posting.
+
+
